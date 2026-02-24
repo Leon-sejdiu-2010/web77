@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Lesson7</title>
+    </head>
+    <body>
+
+        <form>
+            <fieldset>
+                <legend>personal info:</legend>
+            <label for="Firstname">Firstname :</label><br>
+            <input type="text" id="Firstname" name="Firstname" placeholder="Firstname"required><br>
+            <label for="Lastname" >Lastname :</label><br>
+            <input type="text" id="Lastname" name="Firstname" readonly required><br>
+            <label for="Email">Email: </label><br>
+            <input type="email" name="email" id="email" disabled><br>
+            <label for="password">Password: </label><br>
+            <input type="password"  id="password" name="password" size="40" required><br><br>
+
+            <label>Gender : </label><br>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label><br><br>
+
+            
+            <label>Hobbies: </label><br>
+            <input type="checkbox" name="Hobbies" id="gaming" value="gaming">
+            <label for="gaming">Gaming</label><br>
+            <input type="checkbox" name="Hobbies" id="Footboll" value="Footboll">
+            <label for="Footboll">Footboll</label><br>
+            <input type="checkbox" name="Hobbies" id="Voleyball" value="Voleyball">
+            <label for="Voleyball">Voleyball</label><br><br>
+
+            <label for="pet">Choose a pet :</label>
+            <select id="pet" name="pet">
+                <option value="Dog">Dog</option>
+                <option value="Cat">Cat</option>
+                <option value="Lion">Lion</option>
+                <option value="parrot">parrot</option>
+            </select><br><br>
+
+
+            <label for="message">leave a message :</label><br>
+            <textarea name="message" rows="10" cols="10"maxlength="50"></textarea><br><br>
+
+            <input type="submit" id="submit" name="submit"><br><br>
+            </fieldset>
+        </form>
+    </body>
+</html>
