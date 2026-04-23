@@ -15,3 +15,28 @@
     padding: 15px;
     text-align: center;
 }
+p[class*=ds]{
+    color: #eceeee;
+    background-color: rgb(0, 56, 240);
+    padding:20px;
+}
+h1[class|=heading] {
+    background-color: rgb(132, 0, 255);
+    padding: 20px;
+    color: beige;
+}
+div[id ~="ds"]{
+    background-color: orange ;
+    padding: 20px;
+    color: darkblue;
+}
+img[title ^= blue]{
+    background-color:rgb(35, 194, 14) ;
+    padding: 20px;
+    color: rgb(255, 166, 0);
+}
+img[title $= sky]{
+    background-color:rgb(250, 17, 17) ;
+    padding: 20px;
+    color: rgb(255, 166, 0);
+}
