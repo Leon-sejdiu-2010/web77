@@ -1,0 +1,40 @@
+body{
+    counter-reset: number;
+}
+h2::before{
+    counter-increment: number;
+    content: counter(number);
+    background-color: rgb(20, 102, 173);
+    border-radius: 15px;
+    padding: 5px 12px;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+}
+:root{
+    --primary-color:rgb(14, 14, 121);
+    --ngjyra_e_dyt: #fff;
+    --padding:20px;
+}
+.vars{
+    background-color:var(--primary-color);
+    color: var(--ngjyra_e_dyt);
+    padding: var(--padding);
+
+}
+.rounded{
+    display: flex;
+}
+.rounded #example-three{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    background: url(./download.jpg);
+}
+.rounded #example-four{
+      margin: 10px;
+    width: 150px;
+    height: 150px;
+     border-radius: 5px 60px 10px;
+     background: greenyellow;
+}
