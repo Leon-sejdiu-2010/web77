@@ -38,3 +38,11 @@ h2::before{
      border-radius: 5px 60px 10px;
      background: greenyellow;
 }
+
+.rounded #example-four{
+      margin: 10px;
+    width: 150px;
+    height: 150px;
+     border-radius: 30px/50px;
+     background: greenyellow;
+}
