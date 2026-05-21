@@ -91,3 +91,74 @@ nav ul li .active{
 .service p{
     font-size: 16px;
 }
+#section-3{
+    background-color: #3c5499;
+    min-height: 800px;
+    color: white;
+}
+#contact-form{
+    max-width: 860px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.form-row{
+    display: flex;
+}
+input[type="text"],input[type="email"]{
+    height: 56px;
+    width: 46%;
+
+}
+input[type="text"],input[type="email"],textarea{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: white;
+     background-color: #273a71;
+     font-size: 18px;
+     margin: 16px;
+     border-radius: 5px;
+     padding-left: 20px;
+     border: none;
+}
+textarea{
+    height: 200px;
+    width: 100px;
+    padding-top:24px;
+}
+input[type="submit"]{
+     background-color: #30bae7;
+     font-size: 18px;
+     margin-top: 60px;
+     border-radius: 5px;
+     margin-left: auto;
+     margin-right: auto;
+     border: none;
+}
+.big-button{
+    padding: 25px 85px;
+    color: white;
+}
+footer{
+ background-color: #344b8e;
+}
+.footer-links{
+     max-width: 945px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer ul{
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+}
+.footer-links ul li{
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+
+}
+.footer-links ul li{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    
+}
