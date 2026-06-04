@@ -1,0 +1,59 @@
+
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000000;
+    color: #333333;
+}
+
+.contact-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.contact-box {
+    width: 100%;
+    max-width: 520px;
+    background-color: #ebdc58;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 12px 28px rgb(207, 196, 34);
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+h2 {
+    margin-bottom: 6px;
+    font-size: 1rem;
+    color: #000000;
+}
+
+p {
+    margin: 0 0 16px;
+    line-height: 1.6;
+}
+
+.contact-item {
+    padding: 14px 16px;
+    border: 1px solid #ece3dc;
+    border-radius: 12px;
+    background: #fcf7f4;
+}
+
+.contact-note {
+    margin-top: 8px;
+    font-style: italic;
+    color: #000000;
+}
+#contact-title{
+    color: white;
+    
+}
