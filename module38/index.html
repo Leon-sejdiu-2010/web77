@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+     crossorigin="anonymous">
+</head>
+<body>
+    <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="toast-header">
+    <img src="..." class="rounded me-2" alt="...">
+    <strong class="me-auto">Bootstrap</strong>
+    <small>11 mins ago</small>
+    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+  </div>
+  <div class="toast-body">
+  Pershendetje, mirsevjen ne faqen tone te restauranit tone Va piano.
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+17E8Q4JxF6A1x" crossorigin="anonymous"></script>
+<script>
+    const toastEl = document.querySelector('.toast');
+    const toast = new bootstrap.Toast(toastEl);
+    toast.show();
+</script>
+
+<table class="table table-striped table-bordered table-hover">
+  <thead class="table-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Produkti</th>
+      <th scope="col">Përshkrimi</th>
+      <th scope="col">Çmimi</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Pizza Margherita</td>
+      <td>Pizza me mozzarella, domate dhe basil</td>
+      <td>350 Lek</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Spageti Bolognese</td>
+      <td>Spageti me salcë qengji dhe parmigiano</td>
+      <td>420 Lek</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Greke Salatë</td>
+      <td>Salatë me domate, spec, ullinj dhe djath</td>
+      <td>280 Lek</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Breast me gjalpë</td>
+      <td>Peshk ose mish me perime të nxehta</td>
+      <td>510 Lek</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>Water</td>
+      <td>Ujë mineral</td>
+      <td>60 Lek</td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>Kafe</td>
+      <td>Kafe e shijshme</td>
+      <td>90 Lek</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
+
+</body>
+</html>
