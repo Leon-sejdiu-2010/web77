@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f5f7fb;
+  color: #111827;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.sport {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 30px;
+  align-items: center;
+}
+
+.tag {
+  color: #ff6b35;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+
+h1 {
+  font-size: 52px;
+  line-height: 1.1;
+  margin-bottom: 16px;
+}
+
+.text {
+  color: #5b6475;
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.buttons {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 28px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 22px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.btn-primary {
+  background: #ff6b35;
+  color: white;
+}
+
+.btn-light {
+  background: white;
+  color: #111827;
+  border: 1px solid #dfe5ec;
+}
+
+.stats {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.stats div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.stats strong {
+  font-size: 28px;
+}
+
+.stats span {
+  color: #5b6475;
+  font-size: 14px;
+}
+
+.sport-right {
+  position: relative;
+}
+
+.sport-right img {
+  height: 440px;
+  object-fit: cover;
+  border-radius: 28px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+.product-box {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  background: white;
+  padding: 16px 18px;
+  border-radius: 18px;
+  box-shadow: 0 18px 30px rgba(0, 0, 0, 0.08);
+}
+
+.product-box span {
+  color: #ff6b35;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.product-box h3 {
+  margin: 8px 0 6px;
+  font-size: 22px;
+}
+
+.product-box p {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.products {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px 60px;
+}
+
+.products h2 {
+  font-size: 36px;
+  margin-bottom: 24px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #e7ebf2;
+}
+
+.card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.card h3,
+.card p {
+  padding: 0 16px;
+}
+
+.card h3 {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-size: 22px;
+}
+
+.card p {
+  padding-bottom: 18px;
+  font-weight: 700;
+  color: #111827;
+}
+
+@media (max-width: 820px) {
+  .sport {
+    grid-template-columns: 1fr;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+}
+
